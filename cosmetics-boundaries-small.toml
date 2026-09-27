@@ -1,0 +1,307 @@
+# A cosmetics file that can be used with the standard Spectre
+# substitution system in the substitution-tiling-transducers crate, to
+# colour tiles based on which of the (small) diabolo, 2-arms0 and
+# 3-arms0 they are part of, and also draw a boundary around the
+# outside of each of those clusters.
+
+filetype = "sgt-tiling-cosmetics"
+fileversion = 0
+
+[colour]
+
+# D0
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Theta)" = "#008fcf"
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Xi)" = "#008fcf"
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Phi)" = "#008fcf"
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Psi)" = "#008fcf"
+
+# 2-arms0. Blank lines separate collections of addresses that map to a
+# specific tile in the figure.
+"(tile spectre)(subtile 0 of Pi)(subtile 1 of Gamma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Sigma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Delta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Phi)" = "#ffff80"
+
+"(tile spectre)(subtile 0 of Xi)(subtile 5 of Gamma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 1 of Sigma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Sigma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 1 of Delta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Sigma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Delta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Theta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Psi)" = "#ffff80"
+
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Theta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Psi)" = "#ffff80"
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Theta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Psi)" = "#ffff80"
+
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 5 of Gamma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Sigma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 1 of Delta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Delta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Gamma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Sigma)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Delta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Psi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Psi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Psi)" = "#ffff80"
+
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Theta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Psi)" = "#ffff80"
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Theta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Psi)" = "#ffff80"
+
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Theta)" = "#c0c060"
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Xi)" = "#c0c060"
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Lambda)" = "#c0c060"
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Pi)" = "#c0c060"
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Phi)" = "#c0c060"
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Psi)" = "#c0c060"
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Theta)" = "#ffff80"
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Xi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Lambda)" = "#ffff80"
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Pi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Phi)" = "#ffff80"
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Psi)" = "#ffff80"
+
+# 3-arms0, with similar blank lines.
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Delta)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 5 of Xi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Lambda)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Pi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 5 of Pi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 7 of Phi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 5 of Psi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 7 of Psi)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Sigma)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Sigma)" = "#b448b8"
+
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Sigma)" = "#87368a"
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Sigma)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Gamma)" = "#b448b8"
+
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Gamma)" = "#87368a"
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Gamma)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Theta)" = "#b448b8"
+"(tile spectre)(subtile 0 of Pi)(subtile 7 of Theta)" = "#b448b8"
+"(tile spectre)(subtile 0 of Pi)(subtile 7 of Xi)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Gamma)" = "#b448b8"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Lambda)" = "#b448b8"
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Pi)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Gamma)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Gamma)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Theta)" = "#f964ff"
+
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Delta)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Delta)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 1 of Sigma)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Theta)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Theta)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Xi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Lambda)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Phi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Theta)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Xi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Phi)" = "#b448b8"
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Psi)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Delta)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Delta)" = "#b448b8"
+
+"(tile spectre)(subtile 1 of Gamma)(subtile 0 of Delta)" = "#87368a"
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Delta)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Lambda)" = "#b448b8"
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Sigma)" = "#b448b8"
+
+[boundary]
+
+# D0
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Theta)" = [0,1,2,3,4,5,6,7,8,11,12,13]
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Xi)" = [0,1,2,3,4,5,6,7,8,11,12,13]
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Phi)" = [0,1,2,3,4,5,6,7,8,11,12,13]
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Psi)" = [0,1,2,3,4,5,6,7,8,11,12,13]
+
+# 2-arms0
+"(tile spectre)(subtile 0 of Pi)(subtile 1 of Gamma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Sigma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Delta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Lambda)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Phi)" = [13,0,1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Xi)(subtile 5 of Gamma)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 1 of Sigma)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Sigma)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 1 of Delta)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Sigma)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Delta)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Theta)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Xi)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Lambda)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Pi)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Phi)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Psi)" = [1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Theta)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Xi)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Lambda)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Pi)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Phi)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Psi)" = [11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Theta)" = [10,11,12]
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Xi)" = [10,11,12]
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Lambda)" = [10,11,12]
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Pi)" = [10,11,12]
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Phi)" = [10,11,12]
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Psi)" = [10,11,12]
+
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 5 of Gamma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Sigma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 1 of Delta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Delta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Lambda)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 7 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Lambda)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 1 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Gamma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Sigma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Delta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Xi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Lambda)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Phi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Psi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Psi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Psi)" = [13,0,1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Theta)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Xi)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Lambda)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Pi)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Phi)" = [11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Psi)" = [11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Theta)" = [10,11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Xi)" = [10,11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Lambda)" = [10,11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Pi)" = [10,11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Phi)" = [10,11,12,13,0,1,2,3]
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Psi)" = [10,11,12,13,0,1,2,3]
+
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Theta)" = [0,1,2]
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Xi)" = [0,1,2]
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Lambda)" = [0,1,2]
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Pi)" = [0,1,2]
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Phi)" = [0,1,2]
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Psi)" = [0,1,2]
+
+# 3-arms0
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Delta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 5 of Xi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Lambda)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 5 of Pi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 7 of Phi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 5 of Psi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 7 of Psi)" = [13,0,1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Sigma)" = [11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Sigma)" = [10,11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Sigma)" = [0,1,2]
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Gamma)" = [13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Gamma)" = [0,1,2]
+
+"(tile spectre)(subtile 0 of Pi)(subtile 5 of Theta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Pi)(subtile 7 of Theta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Pi)(subtile 7 of Xi)" = [13,0,1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Delta)(subtile 2 of Gamma)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Lambda)" = [1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Xi)(subtile 7 of Pi)" = [1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Gamma)" = [11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Gamma)" = [10,11,12]
+
+"(tile spectre)(subtile 0 of Phi)(subtile 6 of Delta)" = [13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Delta)" = [10,11,12]
+
+"(tile spectre)(subtile 0 of Psi)(subtile 5 of Xi)(subtile 1 of Sigma)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Theta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Theta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 3 of Xi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Lambda)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Phi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Theta)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Xi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Phi)" = [13,0,1,2,3,4,5,6,7,8]
+"(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Psi)" = [13,0,1,2,3,4,5,6,7,8]
+
+"(tile spectre)(subtile 0 of Phi)(subtile 3 of Delta)" = [11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Delta)(subtile 2 of Delta)" = [10,11,12,13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Gamma)(subtile 0 of Delta)" = [0,1,2]
+
+"(tile spectre)(subtile 0 of Lambda)" = [13,0,1,2,3]
+
+"(tile spectre)(subtile 0 of Sigma)(subtile 4 of Sigma)" = [10,11,12]
