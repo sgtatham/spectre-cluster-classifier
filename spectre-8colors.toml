@@ -1,0 +1,17 @@
+# Colour scheme for the usual 9-tile Spectre substitution system,
+# matching the colour scheme used in arxiv.org/abs/2609.07592
+
+filetype = "sgt-tiling-cosmetics"
+fileversion = 0
+
+[colour]
+"...(tile Gamma)" = "#FFFFFF"
+"(tile spectre)(subtile 1 of Gamma)" = "#FFC8FF"
+"...(tile Delta)" = "#FFFFFF"
+"...(tile Theta)" = "#FF0000"
+"...(tile Lambda)" = "#7800FF"
+"...(tile Xi)" = "#FF7E00"
+"...(tile Pi)" = "#0032FF"
+"...(tile Sigma)" = "#FFFFFF"
+"...(tile Phi)" = "#00E200"
+"...(tile Psi)" = "#008FCF"
