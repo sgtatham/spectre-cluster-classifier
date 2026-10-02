@@ -9,7 +9,7 @@ fileversion = 0
 
 [colour]
 
-# D0
+# Diabolo
 "(tile spectre)(subtile 0 of Gamma)(subtile 0 of Psi)(subtile 1 of Theta)" = "#008fcf"
 "(tile spectre)(subtile 1 of Gamma)(subtile 0 of Psi)(subtile 1 of Theta)" = "#006b9b"
 "(tile spectre)(subtile 0 of Psi)(subtile 1 of Psi)(subtile 1 of Theta)" = "#008fcf"
@@ -47,7 +47,7 @@ fileversion = 0
 "(tile spectre)(subtile 0 of Phi)(subtile 6 of Psi)(subtile 1 of Psi)" = "#008fcf"
 "(tile spectre)(subtile 0 of Psi)(subtile 7 of Psi)(subtile 1 of Psi)" = "#008fcf"
 
-# 2-arms0. Blank lines separate collections of addresses that map to a
+# 2-arms. Blank lines separate collections of addresses that map to a
 # specific tile in the figure.
 "(tile spectre)(subtile 0 of Gamma)(subtile 0 of Pi)(subtile 1 of Gamma)" = "#ffff80"
 "(tile spectre)(subtile 1 of Gamma)(subtile 0 of Pi)(subtile 1 of Gamma)" = "#c0c060"
@@ -654,7 +654,7 @@ fileversion = 0
 "(tile spectre)(subtile 0 of Xi)(subtile 5 of Gamma)(subtile 0 of Psi)" = "#ffff80"
 "(tile spectre)(subtile 0 of Phi)(subtile 6 of Gamma)(subtile 0 of Psi)" = "#ffff80"
 
-# 3-arms0, with similar blank lines.
+# 3-arms, with similar blank lines.
 "(tile spectre)(subtile 0 of Gamma)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Delta)" = "#b448b8"
 "(tile spectre)(subtile 1 of Gamma)(subtile 0 of Psi)(subtile 7 of Phi)(subtile 6 of Delta)" = "#87368a"
 "(tile spectre)(subtile 0 of Psi)(subtile 1 of Psi)(subtile 7 of Phi)(subtile 6 of Delta)" = "#b448b8"
