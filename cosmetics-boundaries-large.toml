@@ -1,7 +1,7 @@
 # A cosmetics file that can be used with the standard Spectre
 # substitution system in the substitution-tiling-transducers crate, to
-# colour tiles based on which of the (large) diabolo, 2-arms0 and
-# 3-arms0 they are part of, and also draw a boundary around the
+# colour tiles based on which of the (large) diabolo, 2-arms and
+# 3-arms they are part of, and also draw a boundary around the
 # outside of each of those clusters.
 
 filetype = "sgt-tiling-cosmetics"
